@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(207, 249, 248);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal{
+    background-color:#3a4452;
+    padding:30px;
+    border-radius: 10px;
+}
+input[type=button]{
+    border:0;
+    outline:0;
+    width:60px;
+    height: 60px;
+    margin:4px 2px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow:-8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background:transparent;
+    color:azure;
+    cursor:pointer;
+}
+input[type=button]:hover{
+    color:aqua;
+}
+input[type=text]{
+    width: 95%;
+    height:60px;
+    height: 60px;
+    margin:20px 0px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    background:transparent;
+    color:azure;
+    display:flex;
+    justify-content:end;
+}
+.row4 .eql{
+    width:124px;
+}
